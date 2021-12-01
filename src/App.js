@@ -5,10 +5,7 @@ import Logo from "./components/Logo";
 function App() {
   return (
     <div className="App">
-      <div className="top-wrapper">
-        <Logo />
-        <Menu />
-      </div>
+      <Menu />
     </div>
   );
 }

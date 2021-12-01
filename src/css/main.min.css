@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.top-wrapper {
+.navigation-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,7 +23,7 @@ body {
   margin: 20px auto;
 }
 
-.top-wrapper .navigation-wrapper .navigation {
+.navigation-wrapper .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,22 +36,22 @@ body {
           align-items: center;
 }
 
-.top-wrapper .navigation-wrapper .navigation li {
+.navigation-wrapper .navigation li {
   padding: 10px;
 }
 
-.top-wrapper .navigation-wrapper .navigation li a {
+.navigation-wrapper .navigation li a {
   text-decoration: none;
   color: #333;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.top-wrapper .navigation-wrapper .navigation li a:visited {
+.navigation-wrapper .navigation li a:visited {
   color: #333;
 }
 
-.top-wrapper .navigation-wrapper .navigation li a:hover {
+.navigation-wrapper .navigation li a:hover {
   color: #0ac2ff;
 }
 /*# sourceMappingURL=main.min.css.map */

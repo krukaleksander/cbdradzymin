@@ -5,12 +5,14 @@ import Products from "../pages/Products";
 import Legality from "../pages/Legality";
 import Information from "../pages/Information";
 import Contact from "../pages/Contact";
+import Logo from "../components/Logo";
 
 function Menu() {
   return (
     <Router>
       <div>
         <div className="navigation-wrapper">
+          <Logo />
           <ul className="navigation">
             <li>
               <Link to="/">Strona główna</Link>
