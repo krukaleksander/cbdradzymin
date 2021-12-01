@@ -10,26 +10,24 @@ function Menu() {
   return (
     <Router>
       <div>
-        <div className="header-wrapper">
-          <div className="navigation-wrapper">
-            <ul className="navigation">
-              <li>
-                <Link to="/">Strona główna</Link>
-              </li>
-              <li>
-                <Link to="/produkty">Produkty</Link>
-              </li>
-              <li>
-                <Link to="/legalnosc">Legalność</Link>
-              </li>
-              <li>
-                <Link to="/informacje">Informacje</Link>
-              </li>
-              <li>
-                <Link to="/kontakt">Kontakt</Link>
-              </li>
-            </ul>
-          </div>
+        <div className="navigation-wrapper">
+          <ul className="navigation">
+            <li>
+              <Link to="/">Strona główna</Link>
+            </li>
+            <li>
+              <Link to="/produkty">Produkty</Link>
+            </li>
+            <li>
+              <Link to="/legalnosc">Legalność</Link>
+            </li>
+            <li>
+              <Link to="/informacje">Informacje</Link>
+            </li>
+            <li>
+              <Link to="/kontakt">Kontakt</Link>
+            </li>
+          </ul>
         </div>
 
         <Routes>

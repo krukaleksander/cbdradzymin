@@ -1,0 +1,28 @@
+.top-wrapper {
+  display: flex;
+  padding: 10px;
+  width: 1000px;
+  margin: 20px auto;
+  .navigation-wrapper {
+    .navigation {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      li {
+        padding: 10px;
+        a {
+          text-decoration: none;
+          color: #333;
+          transition: 0.3s;
+          &:visited {
+            color: #333;
+          }
+          &:hover {
+            color: #0ac2ff;
+          }
+        }
+      }
+    }
+  }
+}
