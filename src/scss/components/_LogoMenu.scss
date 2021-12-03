@@ -12,13 +12,13 @@
       padding: 10px;
       a {
         text-decoration: none;
-        color: #333;
+        color: $gray-like;
         transition: 0.3s;
         &:visited {
-          color: #333;
+          color: $gray-like;
         }
         &:hover {
-          color: #0ac2ff;
+          color: $light-blue;
         }
       }
     }

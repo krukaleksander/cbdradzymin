@@ -19,11 +19,11 @@
       margin: 0;
       padding: 10px;
       span:nth-child(1) {
-        color: #0ac2ff;
+        color: $light-blue;
         text-shadow: 3px 3px 3px #00000096;
       }
       span:nth-child(2) {
-        color: #333333;
+        color: $gray-like;
         text-shadow: 2px 2px 3px #00000087;
       }
     }
@@ -33,16 +33,16 @@
       margin: 0;
       padding: 10px;
       span:nth-child(1) {
-        color: #333333;
+        color: $gray-like;
         text-shadow: 2px 2px 3px #00000087;
       }
       span:nth-child(2) {
-        color: #0ac2ff;
+        color: $light-blue;
         text-shadow: 3px 3px 3px #00000096;
       }
     }
     h3 {
-      color: #333333;
+      color: $gray-like;
       margin: 0;
       padding: 10px;
       font-size: 20px;
