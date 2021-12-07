@@ -15,3 +15,10 @@ body {
 
 $light-blue: #0ac2ff;
 $gray-like: #333;
+$black-like: #2d2a2a;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
