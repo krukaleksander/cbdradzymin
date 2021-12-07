@@ -296,4 +296,100 @@ body {
   color: #2d2a2a;
   font-weight: 600;
 }
+
+.footer {
+  margin-top: 50px;
+  min-height: 500px;
+  background-color: #00384a;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer .footer-contact,
+.footer .useful,
+.footer .company {
+  margin-top: 30px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footer-contact,
+.footer .useful {
+  height: 227px;
+}
+
+.footer .footer-contact p,
+.footer .useful p {
+  margin: 5px 0px;
+  text-align: left;
+}
+
+.footer .footer-contact p span,
+.footer .useful p span {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 10px;
+  vertical-align: text-top;
+}
+
+.footer .useful p {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer .useful ul {
+  list-style: none;
+}
+
+.footer .useful ul li {
+  margin: 10px 0px;
+}
+
+.footer .useful ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+
+.footer .company {
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+}
+
+.footer .company__under-img-text {
+  width: 275px;
+  margin: 20px 0px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.footer .company__info p {
+  margin: 8px 0px;
+}
 /*# sourceMappingURL=main.min.css.map */

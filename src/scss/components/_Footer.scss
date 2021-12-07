@@ -1,0 +1,63 @@
+.footer {
+  margin-top: 50px;
+  min-height: 500px;
+  background-color: #00384a;
+  color: rgba(255, 255, 255, 0.8);
+  @include flex;
+  align-items: flex-start;
+  .footer-contact,
+  .useful,
+  .company {
+    margin-top: 30px;
+    flex-basis: 20%;
+    @include flex;
+    flex-direction: column;
+  }
+  .footer-contact,
+  .useful {
+    height: 227px;
+    p {
+      margin: 5px 0px;
+      text-align: left;
+      span {
+        font-weight: bolder;
+        font-size: 20px;
+        margin-right: 10px;
+        vertical-align: text-top;
+      }
+    }
+  }
+  .useful {
+    p {
+      font-weight: bolder;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin: 10px 0px;
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  .company {
+    align-items: unset;
+    &__under-img-text {
+      width: 275px;
+      margin: 20px 0px;
+      font-weight: 600;
+      line-height: 130%;
+    }
+    &__info {
+      p {
+        margin: 8px 0px;
+      }
+    }
+  }
+}
