@@ -8,10 +8,14 @@ import ProductJoints from "../components/ProductJoints";
 function Products() {
   return (
     <div className="product-container">
-      <h1 className="product-container__title">Produkty CBD</h1>
+      <h1 className="product-container__title">
+        Produkty <span>CBD</span>
+      </h1>
       <p className="product-container__description">
         Poniżej znajduje się lista wszystkich produktów, które obecnie mamy w
-        ofercie naszego sklepu.
+        ofercie naszego sklepu. Lista ta obejmuje kolejno: olejki cbd, susz cbd
+        w postaci kwiatów (flowers), susz w postaci rozdrobionej (trims), oraz
+        susz w postacie pre-rolls (zwinięty w bibułkę).
       </p>
       <ProductOils />
       <ProductFlowers />

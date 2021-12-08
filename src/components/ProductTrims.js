@@ -11,50 +11,53 @@ import whitewidow_trims from "../images/products/trims/whitewidow_trims.jpg";
 
 function ProductTrims() {
   return (
-    <div className="product-trims">
-      <ProductCard
-        img={ak_trims}
-        alt="Susz CBD TRIMS Ak-47"
-        name="Susz CBD TRIMS Ak-47"
-        price="35.00"
-      />
-      <ProductCard
-        img={amnesia_trims}
-        alt="Susz CBD TRIMS Amnesia Skunk"
-        name="Susz CBD TRIMS Amnesia Skunk"
-        price="35.00"
-      />
-      <ProductCard
-        img={blueberry_trims}
-        alt="Susz CBD TRIMS Blueberry"
-        name="Susz CBD TRIMS Blueberry"
-        price="35.00"
-      />
-      <ProductCard
-        img={lemon_haze_trims}
-        alt="Susz CBD TRIMS Lemon Haze"
-        name="Susz CBD TRIMS Lemon Haze"
-        price="35.00"
-      />
-      <ProductCard
-        img={pineapple_trims}
-        alt="Susz CBD TRIMS Pineapple"
-        name="Susz CBD TRIMS Pineapple"
-        price="35.00"
-      />
-      <ProductCard
-        img={raspberry_trims}
-        alt="Susz CBD TRIMS Raspberry"
-        name="Susz CBD TRIMS Raspberry"
-        price="35.00"
-      />
-      <ProductCard
-        img={whitewidow_trims}
-        alt="Susz CBD TRIMS White Widow"
-        name="Susz CBD TRIMS White Widow"
-        price="35.00"
-      />
-    </div>
+    <>
+      <h1 className="all-product-container__title">cbd trims</h1>
+      <div className="product-trims all-product-container">
+        <ProductCard
+          img={ak_trims}
+          alt="Susz CBD TRIMS Ak-47"
+          name="Susz CBD TRIMS Ak-47"
+          price="35.00"
+        />
+        <ProductCard
+          img={amnesia_trims}
+          alt="Susz CBD TRIMS Amnesia Skunk"
+          name="Susz CBD TRIMS Amnesia Skunk"
+          price="35.00"
+        />
+        <ProductCard
+          img={blueberry_trims}
+          alt="Susz CBD TRIMS Blueberry"
+          name="Susz CBD TRIMS Blueberry"
+          price="35.00"
+        />
+        <ProductCard
+          img={lemon_haze_trims}
+          alt="Susz CBD TRIMS Lemon Haze"
+          name="Susz CBD TRIMS Lemon Haze"
+          price="35.00"
+        />
+        <ProductCard
+          img={pineapple_trims}
+          alt="Susz CBD TRIMS Pineapple"
+          name="Susz CBD TRIMS Pineapple"
+          price="35.00"
+        />
+        <ProductCard
+          img={raspberry_trims}
+          alt="Susz CBD TRIMS Raspberry"
+          name="Susz CBD TRIMS Raspberry"
+          price="35.00"
+        />
+        <ProductCard
+          img={whitewidow_trims}
+          alt="Susz CBD TRIMS White Widow"
+          name="Susz CBD TRIMS White Widow"
+          price="35.00"
+        />
+      </div>
+    </>
   );
 }
 

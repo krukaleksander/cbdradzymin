@@ -12,56 +12,59 @@ import whitewidow_joint from "../images/products/joints/whitewidow_joint.jpg";
 
 function ProductJoints() {
   return (
-    <div className="product-joints">
-      <ProductCard
-        img={amnezia_joint}
-        alt="Joint CBD Amnesia Haze – 2 szt"
-        name="Joint CBD Amnesia Haze – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={blueberry_joint}
-        alt="Joint CBD Blueberry – 2 szt"
-        name="Joint CBD Blueberry – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={bubblegum_joint}
-        alt="Joint CBD Bubblegum – 2 szt"
-        name="Joint CBD Bubblegum – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={lemonhaze_joint}
-        alt="Joint CBD Lemon Haze – 2 szt"
-        name="Joint CBD Lemon Haze – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={mangohaze_joint}
-        alt="Joint CBD Mango Haze – 2 szt"
-        name="Joint CBD Mango Haze – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={purplehaze_joint}
-        alt="Joint CBD Purple Haze – 2 szt"
-        name="Joint CBD Purple Haze – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={strawberryhaze_joint}
-        alt="Joint CBD Strawberry Haze – 2 szt"
-        name="Joint CBD Strawberry Haze – 2 szt"
-        price="29.00"
-      />
-      <ProductCard
-        img={whitewidow_joint}
-        alt="Joint CBD White Widow – 2 szt"
-        name="Joint CBD White Widow – 2 szt"
-        price="29.00"
-      />
-    </div>
+    <>
+      <h1 className="all-product-container__title">pre-rolls</h1>
+      <div className="product-joints all-product-container">
+        <ProductCard
+          img={amnezia_joint}
+          alt="Joint CBD Amnesia Haze – 2 szt"
+          name="Joint CBD Amnesia Haze – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={blueberry_joint}
+          alt="Joint CBD Blueberry – 2 szt"
+          name="Joint CBD Blueberry – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={bubblegum_joint}
+          alt="Joint CBD Bubblegum – 2 szt"
+          name="Joint CBD Bubblegum – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={lemonhaze_joint}
+          alt="Joint CBD Lemon Haze – 2 szt"
+          name="Joint CBD Lemon Haze – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={mangohaze_joint}
+          alt="Joint CBD Mango Haze – 2 szt"
+          name="Joint CBD Mango Haze – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={purplehaze_joint}
+          alt="Joint CBD Purple Haze – 2 szt"
+          name="Joint CBD Purple Haze – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={strawberryhaze_joint}
+          alt="Joint CBD Strawberry Haze – 2 szt"
+          name="Joint CBD Strawberry Haze – 2 szt"
+          price="29.00"
+        />
+        <ProductCard
+          img={whitewidow_joint}
+          alt="Joint CBD White Widow – 2 szt"
+          name="Joint CBD White Widow – 2 szt"
+          price="29.00"
+        />
+      </div>
+    </>
   );
 }
 
