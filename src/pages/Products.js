@@ -1,5 +1,4 @@
 import React from "react";
-import ProductCard from "../components/ProductCard";
 import ProductOils from "../components/ProductOils";
 import ProductFlowers from "../components/ProductFlowers";
 import ProductTrims from "../components/ProductTrims";

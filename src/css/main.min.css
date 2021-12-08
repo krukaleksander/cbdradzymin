@@ -14,6 +14,33 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.top-bar {
+  color: white;
+  background-color: #0ac2ff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 350px;
+      grid-template-columns: 350px 350px;
+  grid-column-gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.top-bar__icon {
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.top-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .navigation-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

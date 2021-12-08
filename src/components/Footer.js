@@ -43,7 +43,7 @@ function Footer() {
           <li>
             <a
               target="_blank"
-              rel="nofollow"
+              rel="nofollow noreferrer"
               href="https://pl.wikipedia.org/wiki/Kannabidiol"
             >
               CBD Wikipedia
@@ -52,7 +52,7 @@ function Footer() {
           <li>
             <a
               target="_blank"
-              rel="nofollow"
+              rel="nofollow noreferrer"
               href="https://www.superpharm.pl/blog/cbd-co-to-jest-i-jakie-ma-wlasciwosci"
             >
               SuperPharm - CBD zdrowie i uroda
@@ -61,7 +61,7 @@ function Footer() {
           <li>
             <a
               target="_blank"
-              rel="nofollow"
+              rel="nofollow noreferrer"
               href="https://www.medonet.pl/zdrowie,jak-uzywac-olejku-cbd--zeby-osiagnac-najlepszy-efekt-,artykul,00369417.html"
             >
               Medonet - Jak używać olejku?
