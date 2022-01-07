@@ -1,0 +1,30 @@
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    color: $light-blue;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  &__container {
+    @include flex;
+    gap: 50px;
+  }
+  img {
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px #222);
+  }
+  &__organizer {
+    p {
+      font-size: 2.1rem;
+      line-height: 180%;
+      span {
+        vertical-align: sub;
+        margin-right: 5px;
+      }
+    }
+  }
+}
