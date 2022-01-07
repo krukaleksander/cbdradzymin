@@ -8,23 +8,50 @@
     font-size: 2.5rem;
     margin: 2.5rem 0;
   }
+  &__div {
+    @include flex;
+    img {
+      max-height: 400px;
+    }
+    div {
+      flex-basis: 50%;
+    }
+  }
   p {
     font-size: 2rem;
     letter-spacing: 2px;
     line-height: 180%;
+    color: $gray-like;
+    span {
+      color: $light-blue;
+      font-weight: bolder;
+    }
   }
   &__author {
     font-weight: bolder;
     margin-top: 1rem;
+    text-align: right;
   }
   &__par {
     margin: 2.5rem 0;
   }
   ul {
     list-style: none;
+    margin-top: 30px;
+    @include flex;
+    flex-direction: column;
+    gap: 20px;
     li {
       font-size: 2rem;
+      letter-spacing: 3px;
       line-height: 180%;
+      span {
+        margin-right: 10px;
+        img {
+          max-width: 30px;
+          vertical-align: sub;
+        }
+      }
     }
   }
 }
