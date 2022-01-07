@@ -1,0 +1,30 @@
+.information-container {
+  width: 80%;
+  margin: 0px auto;
+  h2 {
+    color: $light-blue;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+  }
+  p {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 180%;
+  }
+  &__author {
+    font-weight: bolder;
+    margin-top: 1rem;
+  }
+  &__par {
+    margin: 2.5rem 0;
+  }
+  ul {
+    list-style: none;
+    li {
+      font-size: 2rem;
+      line-height: 180%;
+    }
+  }
+}

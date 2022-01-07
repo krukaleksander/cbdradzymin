@@ -518,4 +518,41 @@ body {
   font-weight: bolder;
   letter-spacing: 4px;
 }
+
+.information-container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.information-container h2 {
+  color: #0ac2ff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.information-container p {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 180%;
+}
+
+.information-container__author {
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.information-container__par {
+  margin: 2.5rem 0;
+}
+
+.information-container ul {
+  list-style: none;
+}
+
+.information-container ul li {
+  font-size: 2rem;
+  line-height: 180%;
+}
 /*# sourceMappingURL=main.min.css.map */
