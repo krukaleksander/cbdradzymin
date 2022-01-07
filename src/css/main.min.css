@@ -459,7 +459,7 @@ body {
   text-transform: uppercase;
   color: #333;
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .all-product-container {
@@ -503,6 +503,11 @@ body {
   margin: 0 auto;
 }
 
+.legality-container img {
+  display: block;
+  margin: 3rem auto;
+}
+
 .legality-container h1 {
   text-align: center;
   color: #0ac2ff;
@@ -524,6 +529,32 @@ body {
 .legality-container__par--super {
   font-weight: bolder;
   letter-spacing: 4px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.legality-container__par--super span {
+  color: #333;
+}
+
+.legality-container__par--super .paragraph {
+  font-size: 15rem;
+  display: block;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .information-container {

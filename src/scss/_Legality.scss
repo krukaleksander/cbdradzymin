@@ -1,6 +1,10 @@
 .legality-container {
   width: 80%;
   margin: 0 auto;
+  img {
+    display: block;
+    margin: 3rem auto;
+  }
   h1 {
     text-align: center;
     color: $light-blue;
@@ -18,6 +22,20 @@
     &--super {
       font-weight: bolder;
       letter-spacing: 4px;
+      margin-bottom: 25px;
+      display: flex;
+      gap: 20px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      span {
+        color: $gray-like;
+      }
+      .paragraph {
+        font-size: 15rem;
+        display: block;
+        text-align: center;
+        @include flex;
+      }
     }
   }
 }
