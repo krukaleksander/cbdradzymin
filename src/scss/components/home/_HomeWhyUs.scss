@@ -9,7 +9,7 @@
   }
   &__description {
     color: $black-like;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 26px;
     text-align: center;
@@ -63,14 +63,15 @@
       }
     }
     h2 {
-      font-size: 24px;
+      font-size: 2.4rem;
       line-height: 25px;
       color: #ebbe31;
-      margin-bottom: 3vh;
+      margin-bottom: 10px;
     }
     p {
       color: $black-like;
       font-weight: 600;
+      font-size: 1.5rem;
     }
   }
 }
