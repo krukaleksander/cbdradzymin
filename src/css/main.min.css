@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 #root {
   overflow: hidden;
 }
@@ -485,5 +489,33 @@ body {
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+.legality-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.legality-container h1 {
+  text-align: center;
+  color: #0ac2ff;
+  font-size: 3rem;
+}
+
+.legality-container__par {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 180%;
+  margin-bottom: 2.5rem;
+}
+
+.legality-container__par span {
+  color: #0ac2ff;
+  font-weight: bolder;
+}
+
+.legality-container__par--super {
+  font-weight: bolder;
+  letter-spacing: 4px;
 }
 /*# sourceMappingURL=main.min.css.map */

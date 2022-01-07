@@ -1,0 +1,23 @@
+.legality-container {
+  width: 80%;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    color: $light-blue;
+    font-size: 3rem;
+  }
+  &__par {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 180%;
+    margin-bottom: 2.5rem;
+    span {
+      color: $light-blue;
+      font-weight: bolder;
+    }
+    &--super {
+      font-weight: bolder;
+      letter-spacing: 4px;
+    }
+  }
+}
