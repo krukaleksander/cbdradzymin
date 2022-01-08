@@ -3,11 +3,33 @@
   padding: 10px;
   width: 1000px;
   margin: 20px auto;
+  @include mq(small) {
+    justify-content: center;
+    width: 100%;
+  }
+  @include mq(galaxys5land) {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    background-color: ivory;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    z-index: 2;
+    width: 200px;
+  }
+  .logo {
+    @include mq(small) {
+      display: none;
+    }
+  }
   .navigation {
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+    @include mq(galaxys5land) {
+      flex-direction: column;
+    }
+
     li {
       padding: 10px;
       a {
@@ -23,5 +45,16 @@
         }
       }
     }
+  }
+}
+#logoMobile {
+  display: none;
+  @include mq(small) {
+    display: block;
+    @include flex;
+    padding: 10px;
+  }
+  img {
+    width: 300px;
   }
 }

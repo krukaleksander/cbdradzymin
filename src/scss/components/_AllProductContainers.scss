@@ -12,4 +12,7 @@
   grid-template-columns: repeat(3, 320px);
   justify-content: center;
   grid-column-gap: 40px;
+  @include mq(small) {
+    grid-template-columns: repeat(2, 320px);
+  }
 }

@@ -1,9 +1,10 @@
 .home-products {
   &__title {
-    font-size: 30px;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     margin: 30px auto;
+
     span:nth-child(1) {
       color: $gray-like;
     }
@@ -29,9 +30,15 @@
         color: $light-blue;
         font-weight: bold;
         padding-bottom: 20px;
+        @include mq(small) {
+          font-size: 2rem;
+        }
       }
       &__image {
         max-width: 350px;
+        @include mq(small) {
+          max-width: 235px;
+        }
       }
     }
   }

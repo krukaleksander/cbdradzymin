@@ -7,9 +7,15 @@
     letter-spacing: 1px;
     font-size: 2.5rem;
     margin: 2.5rem 0;
+    @include mq(small) {
+      font-size: 2rem;
+    }
   }
   &__div {
     @include flex;
+    @include mq(small) {
+      flex-direction: column;
+    }
     img {
       max-height: 400px;
     }
@@ -22,6 +28,9 @@
     letter-spacing: 2px;
     line-height: 180%;
     color: $gray-like;
+    @include mq(small) {
+      font-size: 1.7rem;
+    }
     span {
       color: $light-blue;
       font-weight: bolder;
@@ -45,11 +54,17 @@
       font-size: 2rem;
       letter-spacing: 3px;
       line-height: 180%;
+      @include mq(small) {
+        font-size: 1.7rem;
+      }
       span {
         margin-right: 10px;
         img {
           max-width: 30px;
           vertical-align: sub;
+          @include mq(small) {
+            max-width: 20px;
+          }
         }
       }
     }

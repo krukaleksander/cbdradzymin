@@ -5,6 +5,9 @@
   &__image {
     width: 350px;
     margin-bottom: 30px;
+    @include mq(medium) {
+      width: 300px;
+    }
   }
   &__name {
     font-weight: 100;

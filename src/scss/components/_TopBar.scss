@@ -9,6 +9,14 @@
   font-weight: bolder;
   letter-spacing: 1px;
   font-size: 20px;
+  @include mq(small) {
+    grid-column-gap: 20px;
+  }
+  &__phone {
+    @include mq(small) {
+      text-align: center;
+    }
+  }
   &__icon {
     margin-right: 5px;
     vertical-align: text-bottom;

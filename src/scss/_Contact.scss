@@ -12,10 +12,19 @@
   &__container {
     @include flex;
     gap: 50px;
+    @include mq(medium) {
+      gap: 30px;
+    }
+    @include mq(small) {
+      flex-direction: column;
+    }
   }
   img {
     border-radius: 10px;
     filter: drop-shadow(5px 5px 5px #222);
+    @include mq(medium) {
+      max-width: 400px;
+    }
   }
   &__organizer {
     p {

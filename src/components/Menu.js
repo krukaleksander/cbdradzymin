@@ -6,6 +6,7 @@ import Legality from "../pages/Legality";
 import Information from "../pages/Information";
 import Contact from "../pages/Contact";
 import Logo from "../components/Logo";
+import { RiCloseLine } from "react-icons/ri";
 
 function Menu() {
   return (
@@ -14,6 +15,9 @@ function Menu() {
         <div className="navigation-wrapper">
           <Logo />
           <ul className="navigation">
+            <li className="navigation__close-mobile">
+              <RiCloseLine />
+            </li>
             <li>
               <Link to="/">Strona główna</Link>
             </li>
