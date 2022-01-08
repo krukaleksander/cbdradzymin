@@ -9,17 +9,22 @@ import Logo from "../components/Logo";
 import { RiCloseLine } from "react-icons/ri";
 
 function Menu() {
-  const hideMenu = () => {
+  const hideMenu = (scroll = true) => {
     if (window.innerWidth < 641)
       document.querySelector(".navigation-wrapper").style.left = "-250px";
+    if (scroll) window.scrollTo(0, 0);
   };
+
   return (
     <Router>
       <div>
         <div className="navigation-wrapper">
           <Logo />
           <ul className="navigation">
-            <li className="navigation__close-mobile" onClick={() => hideMenu()}>
+            <li
+              className="navigation__close-mobile"
+              onClick={() => hideMenu(false)}
+            >
               <RiCloseLine />
             </li>
             <li onClick={() => hideMenu()}>

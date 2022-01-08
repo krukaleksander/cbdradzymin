@@ -61,6 +61,9 @@
       @include mq(galaxys5land) {
         font-size: 1.5rem;
       }
+      @include mq(xsmall) {
+        font-size: 2rem;
+      }
     }
   }
 }

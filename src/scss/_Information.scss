@@ -18,6 +18,9 @@
     }
     img {
       max-height: 400px;
+      @include mq(xsmall) {
+        max-height: 200px;
+      }
     }
     div {
       flex-basis: 50%;

@@ -8,6 +8,10 @@
   @include mq(small) {
     flex-wrap: wrap;
   }
+  @include mq(xsmall) {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-contact,
   .useful,
   .company {

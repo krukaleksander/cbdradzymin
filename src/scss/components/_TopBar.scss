@@ -16,6 +16,10 @@
     grid-template-columns: 260px 200px;
     font-size: 1.5rem;
   }
+  @include mq(xsmall) {
+    grid-template-columns: 300px;
+    grid-row-gap: 20px;
+  }
   &__phone {
     @include mq(small) {
       text-align: center;
