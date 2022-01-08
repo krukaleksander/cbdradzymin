@@ -8,9 +8,13 @@
   padding: 10px;
   font-weight: bolder;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 2rem;
   @include mq(small) {
     grid-column-gap: 20px;
+  }
+  @include mq(galaxys5land) {
+    grid-template-columns: 260px 200px;
+    font-size: 1.5rem;
   }
   &__phone {
     @include mq(small) {

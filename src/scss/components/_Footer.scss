@@ -29,6 +29,9 @@
       margin: 5px 0px;
       text-align: left;
       font-size: 2rem;
+      @include mq(galaxys5land) {
+        font-size: 1.5rem;
+      }
       span {
         font-weight: bolder;
         font-size: 2rem;
@@ -62,7 +65,11 @@
   }
 
   .company {
-    align-items: unset;
+    img {
+      @include mq(galaxys5land) {
+        max-width: 200px;
+      }
+    }
     &__under-img-text {
       width: 275px;
       margin: 20px 0px;

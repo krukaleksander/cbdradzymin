@@ -8,6 +8,9 @@
     letter-spacing: 2px;
     font-size: 3rem;
     margin-bottom: 30px;
+    @include mq(galaxys5land) {
+      font-size: 2rem;
+    }
   }
   &__container {
     @include flex;
@@ -25,11 +28,17 @@
     @include mq(medium) {
       max-width: 400px;
     }
+    @include mq(galaxys5land) {
+      max-width: 300px;
+    }
   }
   &__organizer {
     p {
       font-size: 2.1rem;
       line-height: 180%;
+      @include mq(galaxys5land) {
+        font-size: 1.7rem;
+      }
       span {
         vertical-align: sub;
         margin-right: 5px;

@@ -15,4 +15,7 @@
   @include mq(small) {
     grid-template-columns: repeat(2, 320px);
   }
+  @include mq(galaxys5land) {
+    grid-template-columns: 300px;
+  }
 }

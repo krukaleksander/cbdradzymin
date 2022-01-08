@@ -6,14 +6,15 @@
   @include mq(small) {
     justify-content: center;
     width: 100%;
+    transition: 0.4s;
   }
   @include mq(galaxys5land) {
     position: fixed;
-    top: 50px;
-    left: 0px;
+    top: 40px;
+    left: -250px;
     background-color: ivory;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    z-index: 2;
+    z-index: 3;
     width: 200px;
   }
   .logo {
@@ -28,8 +29,20 @@
     align-items: center;
     @include mq(galaxys5land) {
       flex-direction: column;
+      position: relative;
+      padding-top: 20px;
     }
-
+    &__close-mobile {
+      display: none;
+      @include mq(galaxys5land) {
+        display: block;
+        font-size: 3rem;
+        position: absolute;
+        top: -5px;
+        right: -15px;
+        padding: unset !important;
+      }
+    }
     li {
       padding: 10px;
       a {
@@ -56,5 +69,19 @@
   }
   img {
     width: 300px;
+    @include mq(galaxys5land) {
+      width: 250px;
+    }
+  }
+}
+.bars {
+  display: none;
+  @include mq(galaxys5land) {
+    display: block;
+    font-size: 2.5rem;
+    position: fixed;
+    top: 60px;
+    left: 15px;
+    z-index: 2;
   }
 }
